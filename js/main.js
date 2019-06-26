@@ -83,11 +83,7 @@
                 div.css('background-image', 'linear-gradient(to right, #34b32e, #29c066)');
                 sp.css('color', '#ffffff');
                 newPrice.css('display', 'inline-block');
-                // window.getComputedStyle(
-                //     document.querySelector('.zach'), ':before'
-                // ).getPropertyValue('opacity');
                 var styleElem = document.head.appendChild(document.createElement("style"));
-
                 styleElem.innerHTML = ".zach:before {opacity: 1;}";
             });
             $(skidka).on('mouseleave', function () {
