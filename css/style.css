@@ -337,6 +337,11 @@ span {
 .s3 .buy {
   margin-left: 25px;
 }
+@media all and (max-width: 442px) {
+  .s3 .buy {
+    margin-left: calc(50% - 60px);
+  }
+}
 
 .s3 .col-lg-7 {
   position: relative;
