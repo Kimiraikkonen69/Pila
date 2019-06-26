@@ -465,6 +465,12 @@ span {
   outline: none;
   border-radius: 2px;
 }
+@media all and (max-width: 490px) {
+  .s4 #email {
+    width: 300px;
+    margin-left: calc(50% - 150px);
+  }
+}
 
 .s4 .button {
   width: 280px;
@@ -491,7 +497,7 @@ span {
 }
 @media all and (max-width: 767px) {
   .s4 .button {
-    margin-left: 183px;
+    margin-left: calc(50% - 60px);
     margin-top: 15px;
   }
   .s4 .button:hover {
